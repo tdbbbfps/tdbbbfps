@@ -58,9 +58,9 @@ flowchart LR
 
     %% Backend branch
     Root --> Backend[Backend]:::b_root
-    Python --> Django[Django]:::b_planned
-    Python --> FastAPI[FastAPI]:::b_learning
-    Python --> Flask[Flask]:::b_planned
+    Backend --> Django[Django]:::b_planned
+    Backend --> FastAPI[FastAPI]:::b_learning
+    Backend --> Flask[Flask]:::b_planned
 
     %% Database branch
     Root --> Database[Database]:::d_root
