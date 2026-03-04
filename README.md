@@ -66,7 +66,6 @@ flowchart LR
     Root --> Database[Database]:::d_root
     Database --> SQLite[SQLite]:::d_master
     Database --> Postgresql[Postgresql]:::d_learning
-    Database --> MongoDB[MongoDB]:::d_planned
     
     %% Frontend branch
     Root --> Frontend[Frontend]:::f_root
